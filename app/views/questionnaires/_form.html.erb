@@ -1,0 +1,33 @@
+<%= form_for(@questionnaire) do |f| %>
+  <% if @questionnaire.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@questionnaire.errors.count, "error") %> prohibited this questionnaire from being saved:</h2>
+
+      <ul>
+      <% @questionnaire.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :sex %><br>
+    <%= f.select :sex_id, options_from_collection_for_select(Sex.all, :id, :typs) %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :education %><br>
+    <%= f.select :education_id, options_from_collection_for_select(Education.all, :id, :typ) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

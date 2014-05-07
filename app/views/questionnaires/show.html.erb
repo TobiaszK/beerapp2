@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @questionnaire.age %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @questionnaire.sex %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @questionnaire.city %>
+</p>
+
+<p>
+  <strong>Education:</strong>
+  <%= @questionnaire.education.typ %>
+</p>
+
+<%= link_to 'Edit', edit_questionnaire_path(@questionnaire) %> |
+<%= link_to 'Back', questionnaires_path %>

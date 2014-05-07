@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  taste: 1
+  color: 1
+  price: 1
+  design: 1
+  average: 1.5
+
+two:
+  taste: 1
+  color: 1
+  price: 1
+  design: 1
+  average: 1.5

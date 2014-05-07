@@ -1,0 +1,34 @@
+<h1>Listing Beers, Attendant id: <%= @questionnaire.id %> </h1>
+
+<table>
+  <thead>
+    <tr>
+    	<th>Beer</th>
+      <th>Taste</th>
+      <th>Color</th>
+      <th>Price</th>
+      <th>Design</th>
+      <th>Average</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quest_beers.each do |quest| %>
+      <tr>
+        <td><%= quest.taste %></td>
+        <td><%= quest.color %></td>
+        <td><%= quest.price %></td>
+        <td><%= quest.design %></td>
+        <td><%= quest.average %></td>
+        <td><%= link_to 'Show', questionnaire_quest_beer_path(quest) %></td>
+        <td><%= link_to 'Edit', edit_quest_beer_path(quest) %></td>
+        <td><%= link_to 'Destroy', quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'New Beer Vote', new_questionnaire_quest_beer_path(@questionnaire) %>
+<br>

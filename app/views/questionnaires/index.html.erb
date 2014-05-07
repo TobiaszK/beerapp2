@@ -1,0 +1,38 @@
+<h1>Listing questionnaires</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Age</th>
+      <th>Sex</th>
+      <th>City</th>
+      <th>Education</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @questionnaires.each do |questionnaire| %>
+      <tr>
+        <td><%= questionnaire.id %></td>
+        <td><%= questionnaire.age %></td>
+        <td><%= questionnaire.sex %></td>
+        <td><%= questionnaire.city %></td>
+        <td><%= questionnaire.education.typ %></td>
+        <td><%= link_to 'Show', questionnaire %></td>
+        <td><%= link_to 'Edit', edit_questionnaire_path(questionnaire) %></td>
+        
+        <td><%= link_to 'Destroy', questionnaire, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+     <td><%= link_to 'New', new_questionnaire_path %></td>
+  </tbody>
+</table>
+
+<br>
+
+
