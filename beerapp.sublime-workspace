@@ -1,0 +1,2100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bore",
+				"border-bottom"
+			],
+			[
+				"finance",
+				"finance-plan"
+			],
+			[
+				"color-",
+				"color-breadcrumbs-inactive"
+			],
+			[
+				"color-b",
+				"color-breadcrumbs-active"
+			],
+			[
+				"clo",
+				"color-breadcrumbs-regular"
+			],
+			[
+				"after",
+				"after-arrow"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"border-",
+				"border-radius-large"
+			],
+			[
+				"dumm",
+				"dummyDomainPrefix"
+			],
+			[
+				"url_",
+				"url_parameter"
+			],
+			[
+				"buil",
+				"builtin_type"
+			],
+			[
+				"number",
+				"number_parameters"
+			],
+			[
+				"border",
+				"border-radius-large"
+			],
+			[
+				"border-rad",
+				"border-radius-large"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"simplexml",
+				"simplexml_load_string"
+			],
+			[
+				"perfect",
+				"perfectScrollbar"
+			],
+			[
+				"attac",
+				"attachment_id"
+			],
+			[
+				"featured",
+				"featured_id"
+			],
+			[
+				"embed",
+				"embedCode"
+			],
+			[
+				"assess",
+				"assessment_jobs"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"printer_dis",
+				"printer_dispatch_status"
+			],
+			[
+				"fini",
+				"finisher_dispatch_date"
+			],
+			[
+				"print_d",
+				"printer_dispatch_date"
+			],
+			[
+				"install",
+				"install_deadline"
+			],
+			[
+				"dispa",
+				"dispatch_date"
+			],
+			[
+				"measure",
+				"measure_deadline"
+			],
+			[
+				"job_status",
+				"job_status_changed"
+			],
+			[
+				"previous",
+				"previous_company"
+			],
+			[
+				"input",
+				"input_html_options"
+			],
+			[
+				"new_",
+				"new_for_company"
+			],
+			[
+				"image",
+				"imageable"
+			],
+			[
+				"ware",
+				"warehouse_location"
+			],
+			[
+				"TraxxJ",
+				"TraxxJob"
+			],
+			[
+				"skin_un",
+				"skin_unfinished_right"
+			],
+			[
+				"skin_unf",
+				"skin_unfinished_length"
+			],
+			[
+				"company",
+				"company_client"
+			],
+			[
+				"JOB",
+				"JOB_STATUS"
+			],
+			[
+				"frame_base",
+				"frame_base_right"
+			],
+			[
+				"concat",
+				"concat_dimensions"
+			],
+			[
+				"skin_unfi",
+				"skin_unfinished_right"
+			],
+			[
+				"frame_tension",
+				"frame_tensioner_right"
+			],
+			[
+				"frame_tens",
+				"frame_tensioner_left"
+			],
+			[
+				"frame_ten",
+				"frame_tensioner_length"
+			],
+			[
+				"frame_base_",
+				"frame_base_right"
+			],
+			[
+				"skin_",
+				"skin_unfinished_right"
+			],
+			[
+				"frame",
+				"frame_base_left"
+			],
+			[
+				"Traxx",
+				"TraxxJob"
+			],
+			[
+				"insta",
+				"install_rate"
+			],
+			[
+				"freight",
+				"freight_accounts"
+			],
+			[
+				"loc_client_",
+				"loc_client_hq"
+			],
+			[
+				"loc_yfm_",
+				"loc_yfm_warehouse"
+			],
+			[
+				"loc_y",
+				"loc_yfm_hq"
+			],
+			[
+				"loc_",
+				"loc_client_shippment"
+			],
+			[
+				"loc_cli",
+				"loc_client_install"
+			],
+			[
+				"Freight",
+				"FreightAccount"
+			],
+			[
+				"Geo",
+				"GeocoderStatus"
+			],
+			[
+				"assessm",
+				"assessment_job"
+			],
+			[
+				"truck_assess",
+				"truck_assessment"
+			],
+			[
+				"traxx_insta",
+				"traxx_installation"
+			],
+			[
+				"traxx_instal",
+				"traxx_installation_params"
+			],
+			[
+				"Assess",
+				"AssessmentJob"
+			],
+			[
+				"count",
+				"count_unique_profiles"
+			],
+			[
+				"input_html",
+				"input_html_options"
+			],
+			[
+				"Y",
+				"YFM_PROFILE_LENGTH"
+			],
+			[
+				"Trax",
+				"TraxxJob"
+			],
+			[
+				"shi",
+				"shippment_status"
+			],
+			[
+				"Tra",
+				"TraxxJob"
+			],
+			[
+				"kit_re",
+				"kit_requirements_url"
+			],
+			[
+				"kit_req",
+				"kit_requirement"
+			],
+			[
+				"S",
+				"SHIPPMENT_TYPE"
+			],
+			[
+				"wareh",
+				"warehouse_manager"
+			],
+			[
+				"location",
+				"location_contact"
+			],
+			[
+				"truck_ma",
+				"truck_manufacturers"
+			],
+			[
+				"freig",
+				"freight_account"
+			],
+			[
+				"assessment",
+				"assessment_jobs"
+			],
+			[
+				"button",
+				"buttonPassenger"
+			],
+			[
+				"rear",
+				"rear_specs"
+			],
+			[
+				"truck_",
+				"truck_assessment"
+			],
+			[
+				"truck_asses",
+				"truck_assessment_sides"
+			],
+			[
+				"truck_asse",
+				"truck_assessment_sides"
+			],
+			[
+				"TruckAs",
+				"TruckAssessmentSide"
+			],
+			[
+				"duplicate_",
+				"duplicate_truck_assessment"
+			],
+			[
+				"truck",
+				"truck_assessment"
+			],
+			[
+				"truc",
+				"truck_assessment"
+			],
+			[
+				"offered",
+				"offered_assessment_jobs"
+			],
+			[
+				"driver",
+				"driver_length"
+			],
+			[
+				"Asse",
+				"AssessmentJob"
+			],
+			[
+				"asses",
+				"assessment_jobs"
+			],
+			[
+				"fre",
+				"freight_accounts"
+			],
+			[
+				"proto",
+				"prototype (obj)"
+			],
+			[
+				"borderBottom",
+				"borderBottomColor"
+			],
+			[
+				"borderRight",
+				"borderRightColor"
+			],
+			[
+				"selector",
+				"selectorText"
+			],
+			[
+				"color",
+				"colorGroups (obj)"
+			],
+			[
+				"stylese",
+				"stylesheetId (?)"
+			],
+			[
+				"styl",
+				"styleSheets"
+			],
+			[
+				"style",
+				"stylesheetId (obj)"
+			],
+			[
+				"css",
+				"cssStyleSheet (?)"
+			],
+			[
+				"stylesheet",
+				"stylesheetId (?)"
+			],
+			[
+				"setTheme",
+				"setThemeColorCollection"
+			],
+			[
+				"spe",
+				"specificty"
+			],
+			[
+				"sele",
+				"selectedTemplate"
+			],
+			[
+				"toHav",
+				"toHaveBeenCalled"
+			],
+			[
+				"toHave",
+				"toHaveBeenCalled"
+			],
+			[
+				"inlin",
+				"inlineClickHandlers"
+			],
+			[
+				"preview",
+				"previewEditableGroup"
+			],
+			[
+				"render",
+				"renderAdvanced"
+			],
+			[
+				"av",
+				"activateProxy"
+			],
+			[
+				"mouse",
+				"mouseleaveProxy"
+			],
+			[
+				"activa",
+				"activateProxy"
+			],
+			[
+				"mousele",
+				"mouseleaveProxy"
+			],
+			[
+				"mouseent",
+				"mouseenterProxy"
+			],
+			[
+				"empty",
+				"emptyMessage"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"error",
+				"errorThrown"
+			],
+			[
+				"cssMo",
+				"cssMods"
+			],
+			[
+				"parse",
+				"parseStylesheet"
+			],
+			[
+				"registerSty",
+				"registerStylesheet"
+			],
+			[
+				"edit",
+				"editables"
+			],
+			[
+				"prevent",
+				"preventCache"
+			],
+			[
+				"e",
+				"el"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"pro",
+				"proxylog"
+			],
+			[
+				"captcha",
+				"CaptchaV2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/questionnaires/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/questionnaires_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/quest_beer.rb",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/questionnaire.rb",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 2362,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"Snippet: link",
+				"Snippet: Link states"
+			],
+			[
+				"Snippet: state",
+				"Snippet: Link states"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"up",
+				"Emmet: Update Image Size"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"enable pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"enable pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Preferences: Browse Packages"
+			],
+			[
+				"entiti",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"dentit",
+				"StringEncode: HTML Deentitize"
+			],
+			[
+				"html",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"htmlen",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"filedi",
+				"FileDiffs: Menu"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"show",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"sho",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"show ",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"show to",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"sho ",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: amd",
+				"Snippet: JavaScript AMD Test"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Chris/Sites/beerapp/app/models/sex.rb",
+		"/Users/Chris/Sites/beerapp/test/helpers/educations_helper_test.rb",
+		"/Users/Chris/Sites/beerapp/app/controllers/sexes_controller.rb",
+		"/Users/Chris/Sites/beerapp/app/controllers/questionnaires_controller.rb",
+		"/Users/Chris/Sites/beerapp/app/views/questionnaires/show.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/questionnaires/show.json.jbuilder",
+		"/Users/Chris/Sites/beerapp/test/fixtures/quest_beers.yml",
+		"/Users/Chris/Sites/beerapp/app/models/quest_beer.rb",
+		"/Users/Chris/Sites/beerapp/app/views/questionnaires/index.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/layouts/application.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/questionnaires/_form.html.erb",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/application.scss",
+		"/Users/Chris/Sites/beerapp/app/views/quest_beers/index.html.erb",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/questionnaires.css.scss",
+		"/Users/Chris/Sites/beerapp/test/helpers/questionnaires_helper_test.rb",
+		"/Users/Chris/Sites/beerapp/test/controllers/questionnaires_controller_test.rb",
+		"/Users/Chris/Sites/beerapp/config/initializers/mime_types.rb",
+		"/Users/Chris/Sites/beerapp/db/test.sqlite3",
+		"/Users/Chris/Sites/beerapp/app/models/education.rb",
+		"/Users/Chris/Sites/beerapp/config/environment.rb",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/application.css",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/sexes.css.scss",
+		"/Users/Chris/Sites/beerapp/app/assets/stylesheets/beers.css.scss",
+		"/Users/Chris/Sites/beerapp/.gitignore",
+		"/Users/Chris/Sites/beerapp/db/migrate/20140507174415_change_sexes.rb",
+		"/Users/Chris/Sites/beerapp/app/mailers/.keep",
+		"/Users/Chris/Sites/beerapp/db/migrate/20140418154549_create_sexes.rb",
+		"/Users/Chris/Sites/beerapp/app/views/beers/new.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/questionnaires/new.html.erb",
+		"/Users/Chris/Sites/beerapp/app/models/questionnaire.rb",
+		"/Users/Chris/Sites/beerapp/db/migrate/20140507175804_update_education.rb",
+		"/Users/Chris/Sites/beerapp/db/schema.rb",
+		"/Users/Chris/Sites/beerapp/app/views/educations/show.json.jbuilder",
+		"/Users/Chris/Sites/beerapp/app/views/educations/show.html.erb",
+		"/Users/Chris/Sites/beerapp/db/seeds.rb",
+		"/Users/Chris/Sites/beerapp/config/routes.rb",
+		"/Users/Chris/Sites/beerapp/app/views/quest_beers/show.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/quest_beers/_form.html.erb",
+		"/Users/Chris/Sites/beerapp/config/initializers/inflections.rb",
+		"/Users/Chris/Sites/beerapp/config/initializers/session_store.rb",
+		"/Users/Chris/Sites/beerapp/config/initializers/backtrace_silencers.rb",
+		"/Users/Chris/Sites/beerapp/config/initializers/secret_token.rb",
+		"/Users/Chris/Sites/beerapp/lib/assets/.keep",
+		"/Users/Chris/Sites/beerapp/app/views/educations/index.json.jbuilder",
+		"/Users/Chris/Sites/beerapp/app/views/educations/index.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/educations/_form.html.erb",
+		"/Users/Chris/Sites/beerapp/app/models/brand.rb",
+		"/Users/Chris/Sites/beerapp/app/controllers/beers_controller.rb",
+		"/Users/Chris/Sites/beerapp/app/views/beers/edit.html.erb",
+		"/Users/Chris/Sites/beerapp/test/fixtures/sexes.yml",
+		"/Users/Chris/Sites/beerapp/app/views/sexes/show.json.jbuilder",
+		"/Users/Chris/Sites/beerapp/app/views/sexes/index.json.jbuilder",
+		"/Users/Chris/Sites/beerapp/app/views/sexes/show.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/sexes/index.html.erb",
+		"/Users/Chris/Sites/beerapp/app/views/sexes/_form.html.erb",
+		"/Users/Chris/Sites/beerapp/config.ru",
+		"/Users/Chris/Sites/beerapp/db/migrate/20140418150035_create_educations.rb",
+		"/Users/Chris/Sites/beerapp/db/migrate/20140418145954_create_questionnaires.rb",
+		"/Users/Chris/Sites/beerapp/config/initializers/filter_parameter_logging.rb",
+		"/Users/Chris/Sites/beerapp/test/fixtures/beers.yml",
+		"/Users/Chris/Sites/beerapp/beerapp.sublime-project",
+		"/Users/Chris/Sites/beerapp/Gemfile",
+		"/Users/Chris/Sites/beerapp/test/fixtures/questionnaires.yml",
+		"/Users/Chris/Sites/volvo/dist/scripts/main.js",
+		"/Users/Chris/Sites/volvo/templates/pages/vehicles.hbs",
+		"/Users/Chris/Sites/volvo/templates/partials/footer_scripts.hbs",
+		"/Users/Chris/Sites/volvo/app/comparison.html",
+		"/Users/Chris/Sites/volvo/templates/partials/header.hbs",
+		"/Users/Chris/Sites/volvo/app/result-list.html",
+		"/Users/Chris/Sites/volvo/app/styles/_searchmask.scss",
+		"/Users/Chris/Sites/volvo/Gruntfile.js",
+		"/Users/Chris/Sites/volvo/templates/partials/footer.hbs",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/forms-formattribute.js",
+		"/Users/Chris/Sites/volvo/templates/pages/index.hbs",
+		"/Users/Chris/Sites/volvo/app/index.html",
+		"/Users/Chris/Sites/volvo/bower.json",
+		"/Users/Chris/Sites/volvo/app/vehicles.html",
+		"/Users/Chris/Sites/volvo/app/styles/_base.scss",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/css-overflow-scrolling.js",
+		"/Users/Chris/Sites/volvo/bower_components/jquery/src/selector-sizzle.js",
+		"/Users/Chris/Sites/volvo/templates/pages/comparison.hbs",
+		"/Users/Chris/Sites/volvo/templates/pages/result-list.hbs",
+		"/Users/Chris/Sites/volvo/app/styles/main.scss",
+		"/Users/Chris/Sites/volvo/app/searchmask-a.html",
+		"/Users/Chris/Sites/volvo/app/styles/_lightbox.scss",
+		"/Users/Chris/Sites/volvo/templates/pages/result-mosaik.hbs",
+		"/Users/Chris/Sites/volvo/templates/partials/icon_list.hbs",
+		"/Users/Chris/Sites/volvo/templates/partials/icon_grid.hbs",
+		"/Users/Chris/Sites/volvo/bower_components/jquery/src/ajax/script.js",
+		"/Users/Chris/Sites/volvo/app/styles/_navigation.scss",
+		"/Users/Chris/Sites/volvo/app/scripts/main.js",
+		"/Users/Chris/Sites/volvo/app/result-mosaik.html",
+		"/Users/Chris/Sites/volvo/app/images/icon-list.svg",
+		"/Users/Chris/Sites/volvo/app/images/icon-grid.svg",
+		"/Users/Chris/Sites/volvo/app/styles/fonts/fontello/css/fontello-ie7-codes.css",
+		"/Users/Chris/Sites/volvo/app/imprint.html",
+		"/Users/Chris/Sites/volvo/app/robots.txt",
+		"/Users/Chris/Sites/volvo/app/detail-view.html",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/dom-createElement-attrs.js",
+		"/Users/Chris/Sites/volvo/app/dealer-search.html",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/notification.js",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/Users/Chris/Sites/volvo/bower_components/susy/sass/susy/language/susyone/_functions.scss",
+		"/Users/Chris/Sites/volvo/app/styles/_fontello.scss",
+		"/Users/Chris/Sites/volvo/app/styles/_comparison.scss",
+		"/Users/Chris/Sites/volvo/bower_components/susy/sass/susy/language/susyone/_margin.scss",
+		"/Users/Chris/Sites/volvo/bower_components/susy/sass/susy/language/susy/_margins.scss",
+		"/Users/Chris/Sites/volvo/bower_components/susy/sass/susy/_math.scss",
+		"/Users/Chris/Sites/volvo/app/styles/_mediaqueries.scss",
+		"/Users/Chris/Sites/volvo/bower_components/chosen/Gruntfile.coffee",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/webgl-extensions.js",
+		"/Users/Chris/Sites/volvo/bower_components/sassy-maps/sass/sassy-maps/_map-get.scss",
+		"/Users/Chris/Sites/volvo/bower_components/susy/templates/project/_grids.scss",
+		"/Users/Chris/Sites/volvo/templates/partials/comparison_three.hbs",
+		"/etc/hosts",
+		"/Users/Chris/Sites/volvo/templates/partials/comparison_item_mobile.hbs",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/Users/Chris/Sites/volvo/app/styles/_fancybox.scss",
+		"/Users/Chris/Sites/volvo/bower_components/modernizr/feature-detects/blob-constructor.js",
+		"/Users/Chris/Sites/volvo/bower_components/jquery/src/var/indexOf.js",
+		"/Users/Chris/Sites/volvo/bower_components/susy/sass/susy/language/susy/_isolate.scss",
+		"/Users/Chris/Sites/volvo/bower_components/picturefill/CONTRIBUTING.md",
+		"/Users/Chris/Sites/volvo/app/styles/_chosen.scss",
+		"/Users/Chris/Sites/volvo/.gitignore",
+		"/Users/Chris/Sites/volvo/package.json",
+		"/Users/Chris/Sites/volvo/app/styles/scroller.scss",
+		"/Users/Chris/Sites/volvo/bower_components/Placeholders.js/lib/adapters/placeholders.jquery.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.hbs",
+			"*.scss",
+			"",
+			"*.kit",
+			"",
+			"-scripts.min.js",
+			"*",
+			"*.js",
+			"*",
+			"*.erb",
+			".erb",
+			"*.scss",
+			"*",
+			"?*.erb",
+			"app/assets/*",
+			"",
+			"app/assets/stylesheets/*.scss",
+			"*.scss",
+			"",
+			"*.css",
+			"*.scss",
+			"-codekit-config.json, -_SpecRunner.html, -SpecRunner.html, -tvc.sublime-workspace, -spec/*, -log/*",
+			"-codekit-config.json, -_SpecRunner.html, -SpecRunner.html, -tvc.sublime-workspace, -spec/*",
+			"-codekit-config.json, -_SpecRunner.html, -SpecRunner.html, -tvc.sublime-workspace",
+			"-codekit-config.json, -_SpecRunner.html, -SpecRunner.html",
+			"-codekit-config.json, -_SpecRunner.html",
+			"-codekit-config.json",
+			"*",
+			"",
+			"*.scss, *.css",
+			"-build/*, -tvc.sublime-workspace, -log/*",
+			"-build/*, -tvc.sublime-workspace",
+			"-build/*",
+			"",
+			"*.php",
+			"*.js",
+			"-build/*, -tvc.sublime-workspace, -spec/*, -log/*, -_SpecRunner.html, -codekit-config.json, -SpecRunner.html",
+			"-build/*, -tvc.sublime-workspace, -spec/*, -log/*, -_SpecRunner.html, -codekit-config.json",
+			"-build/*, -tvc.sublime-workspace, -spec/*, -log/*, -_SpecRunner.html",
+			"-build/*, -tvc.sublime-workspace, -spec/*, -log/*",
+			"-build/*, -tvc.sublime-workspace, -spec/*",
+			"-build/*, -tvc.sublime-workspace",
+			"-build/*",
+			"",
+			"-build/*, -codekit-config.json, -_SpecRunner.html, -SpecRunner.html, -tvc.sublime-workspace, -log/*",
+			"-build/*, -codekit-config.json, -_SpecRunner.html, -SpecRunner.html, -tvc.sublime-workspace",
+			"-build/*, -codekit-config.json, -_SpecRunner.html, -SpecRunner.html",
+			"-build/*, -codekit-config.json, -_SpecRunner.html",
+			"-build/*",
+			"",
+			"sass/*.scss,-sass/_theme.scss",
+			"sass/*.scss",
+			"sass/*.scss,-sass/_theme.scss",
+			"sass/*.scss",
+			"stylesheets/*.scss",
+			"stylesheets/*.css",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js, -codekit-config.json, -coverage/*, -log/*",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js, -codekit-config.json, -coverage/*, ",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js, -codekit-config.json, -coverage/*, -spec/*",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js, -codekit-config.json, -coverage/*",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js, -codekit-config.json",
+			"-build/*, -tvc.sublime-workspace, -.grunt/*, -app/lib/*, -app/templates/*, -javascript/jquery.js",
+			"-build/*",
+			"*.css",
+			"*.scss",
+			"-build/*",
+			"",
+			"sass/modules/**/*.scss",
+			"*.scss, -_theme.scss",
+			"*.scss",
+			"-build/*, -node_modules/*, -aws/*, -tvc.sublime-workspace, -spec/*, -app/js/templates/*",
+			"-build/*, -node_modules/*, -aws/*, -tvc.sublime-workspace, -spec/*",
+			"-build/*, -node_modules/*, -aws/*, -tvc.sublime-workspace",
+			"-build/*, -node_modules/*, -aws/*",
+			"-build/*, -*Spec.js, -codekit-config.json, -node_modules/*, -aws/*",
+			"-build/*, -*Spec.js, -codekit-config.json, -node_modules/*",
+			"-build/*, -*Spec.js, -codekit-config.json",
+			"-build/*, -*Spec.js",
+			"-wp-admin/* , -wp-includes/* , -*.po, -*.txt, -*.html, -*.pot",
+			"-wp-admin/* , -wp-includes/* ,-/*.php, -*.po, -*.txt, -*.html, -*.pot",
+			"-wp-admin/* , -wp-includes/* ,-/*.php, -*.po, -*.txt",
+			"-wp-admin/* , -wp-includes/* ,-/*.php",
+			"-wp-admin/* , -wp-includes/* ,-/Users/Chris/Sites/configure1/*.php",
+			"-wp-admin/* , -wp-includes/* -/Users/Chris/Sites/configure1/*.php",
+			"-wp-admin/* , -wp-includes/* -/*.php",
+			"-wp-admin/* , -wp-includes/*",
+			"-*.css, -.sass-cache/*, -build/*",
+			"-*.css, -.sass-cache/*",
+			"-*.css",
+			"",
+			"-wp-admin/*, -wp-includes/*, -*.css, -*.php",
+			"-wp-admin/*, -wp-includes/*, -*.css",
+			"-wp-admin/*, -wp-includes/*",
+			"-wp-admin/*",
+			"-wp\\-admin/*",
+			"-\"wp-admin/*\"",
+			"",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html, -build/*, -javascript/*, -plugins/*",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html, -Utils*.js, -build/*, -javascript/*, -plugins/*",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html, -Utils*.js, -build/*, -javascript/*",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html, -Utils*.js, -build/*",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html, -Utils*.js",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -*.css, -*.scss, -*.html",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, - *.css",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js, -Utils*.js",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php, -jasmine.slow.js",
+			"-node_modules/*, -codekit-config.json, -lib/*, -*.php",
+			"-node_modules/*, -codekit-config.json, -lib/*, *.php",
+			"-node_modules/*, -codekit-config.json, -lib/*",
+			"-node_modules, -codekit-config.json, -lib/*",
+			"-node_modules, -codekit-config.json, -lib",
+			"-node_modules, -codekit-config.json",
+			"App.js",
+			"-node_modules/*, -codekit-config.json",
+			"-node_modules/*",
+			"Themer.js",
+			"-node_modules/*",
+			"-node_modules",
+			"",
+			"/Users/Chris/Sites/shire"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"typ",
+			"typs",
+			"Type",
+			"type",
+			"../../bower_components/",
+			"concat",
+			".model-select",
+			".stock",
+			"class=\"action",
+			".product-b ",
+			"sr-only",
+			".breadcrumbs",
+			"filter-a",
+			".model-select-simple",
+			"nav-e",
+			"slider-a {",
+			"assemble",
+			"comparison",
+			"\"",
+			"@import",
+			"<!-- @import \"banner\" -->",
+			"@import",
+			"@include container",
+			"select",
+			"button-a",
+			"button-a ",
+			".button-a {",
+			".vehicle-options",
+			"potions",
+			"classs",
+			"button-a {",
+			"768",
+			"div",
+			"opened",
+			"trigger",
+			"568",
+			"@media",
+			"chosen-container",
+			"min-width: 600",
+			"max-width: 600",
+			"type=",
+			"add search alert",
+			"<picture",
+			".connect-a",
+			"utils-b",
+			"connect-a",
+			"pages",
+			"gallery-a-thumb",
+			"gallery-a-",
+			"gallery1",
+			" .grid-a ",
+			" .grid-a > ",
+			"finance",
+			"grid-a",
+			".gallery-a ",
+			".links-a ",
+			".btn-a",
+			".product-b",
+			".product-b ",
+			".nav-c ",
+			".gallery-a ",
+			".ftable-a ",
+			".cta-a ",
+			".connect-a ul li.",
+			".root-a ",
+			".root-a",
+			".gallery-a ul ",
+			"nav-d",
+			"@med",
+			".button-a",
+			"button-a:after",
+			"button-a",
+			"<img srcset=\"temp/banner-a-small-a.jpg\" alt=\"banner\">",
+			"first-child",
+			"figure",
+			"<picture",
+			"<picture>",
+			"picture",
+			"<figure>",
+			"picture",
+			"<picture>",
+			"<img src=\"temp/banner-a-large-a.jpg\" alt=\"banner\" />",
+			"<source media=\"(max-width: 568px)\" src=\"temp/banner-a-small-a.jpg\" />",
+			"<source media=\"(max-width: Infinity)\" src=\"temp/banner-a-large-a.jpg\" />",
+			"chosen",
+			".button-a",
+			".grey",
+			"button-a",
+			"selekt",
+			"70",
+			"c70",
+			"XC90",
+			"xc90",
+			"XC",
+			"90",
+			"xc",
+			"V70",
+			"v70",
+			"70",
+			"0",
+			"70",
+			"S40",
+			"s40",
+			"S80",
+			"s80",
+			"s4",
+			"S60",
+			"s60",
+			"S60",
+			"s60",
+			"s80",
+			"fontello",
+			"icon",
+			"fontellop",
+			"span.",
+			"ul.",
+			"li.",
+			"#navigation ",
+			"nav-a",
+			"\"nav-a",
+			"nav-a",
+			"models-a",
+			"blank.gif",
+			"close",
+			"fancybox-close",
+			"fancybox-prev",
+			"fancybox-close",
+			"btn-a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{{> banner }}",
+			"<img srcset=\"temp/banner-a-large-a.jpg\" alt=\"banner\">",
+			"<img src=\"temp/banner-a-large-a.jpg\" alt=\"banner\">",
+			"<source media=\"(max-width: 568px)\" src=\"temp/banner-a-small-a.jpg\">",
+			"<source media=\"(max-width: Infinity)\" src=\"temp/banner-a-large-a.jpg\">",
+			"url('../images/chosen/chosen",
+			"\"Delete\"",
+			"'Save'",
+			";",
+			"images/",
+			"url(images/",
+			"<p>There are no $1 to show.</p>",
+			".print",
+			"Print",
+			"print",
+			"[class*=btn]",
+			"<meta charset=\"utf-8\">",
+			"",
+			"<span class=\"span4\">$1</span>",
+			"TYPE",
+			"<ul class=\"table-controls pull-right\">",
+			"<th class=\"actions align-right\">Actions</th>",
+			"<th scope=\"col\" class=\"align-right\">Actions</th>",
+			":as => :image",
+			":as => :photo",
+			"destroy",
+			"class=\"icon-trash\"",
+			"",
+			"'<i class=\"icon-pencil\"></i>Editing '",
+			"icon-list",
+			"image-url(\"$1\")",
+			"",
+			"url($1/assets",
+			"url($1/assets/images/",
+			"url($1/assets/images",
+			"url(/assets/",
+			"url($2)",
+			"url($1../images/",
+			"",
+			"<option>$1</option>",
+			"</span> Company Name.",
+			"'$1'",
+			" }",
+			"<!--[if lt IE 9]>\n    <script src=\"/javascript/jquery-1.10.1.js\"></script>\n<![endif]-->\n<!--[if gte IE 9]><!-->\n    <script src=\"/javascript/jquery-2.0.1.js\"></script>\n<!--<![endif]-->",
+			"-10000px",
+			"",
+			"\"",
+			"\\",
+			"",
+			"\"$1\"",
+			"",
+			"\"$1\"",
+			"grunt-contrib-jasmine/",
+			"",
+			"p",
+			"throw new Error",
+			"throw new Exception('$2');",
+			"",
+			"<!--[if lt IE 9]>\n    <script src=\"/javascript/jquery-1.9.1.js\"></script>\n<![endif]-->\n<!--[if gte IE 9]><!-->\n    <script src=\"/javascript/jquery-2.0.0.js\"></script>\n<!--<![endif]-->\n",
+			"this.listenTo(Backbone, 'App:updateWidgets', this.updateWidgets);",
+			" },",
+			"\"",
+			"\\\"",
+			"'uk' : ",
+			"'au' : ",
+			"'us' : ",
+			"}',",
+			"'{",
+			"$color4",
+			"$color3",
+			"$color2",
+			"$color1",
+			"$color2",
+			"$color1",
+			"$color4",
+			"$color1",
+			"$color2",
+			"$color3",
+			"$color5",
+			"$color2",
+			"$color5",
+			"$color1",
+			"$color4",
+			"$color2",
+			" required=\"required\"",
+			"stylesheets/$1.css",
+			"",
+			"this.listenTo(Backbone, 'EditableGroupView:changedState', this.updateWidgets);",
+			"    changedState : function(){\n      this.updateWidgets();\n    }",
+			"      this.updateWidgets();\n      this.render();\n",
+			"ControlSectionView.prototype.changedState",
+			"ControlSectionView.__prototype__.changedState",
+			"$color5",
+			"$color4",
+			"$color2",
+			"$color1",
+			"$color2",
+			"$color5",
+			"$color4",
+			"$color3",
+			"$color2",
+			"$color1",
+			"6a1313",
+			"979591",
+			"andReturn({ pathname: '/",
+			".getLocation.",
+			"fixtures/",
+			"$darkGray",
+			"\"",
+			"-moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; ",
+			"",
+			"-moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;",
+			"url(http://www.lamarpark.com/images/",
+			"Testimonials.prototype",
+			"registerModuleAsEditable",
+			"setColor",
+			"initialValue",
+			"\"colorpicker-",
+			"url('",
+			"canvasmask",
+			"-webkit-font-smoothing: subpixel-antialiased;",
+			"",
+			"fontRules",
+			"cssRules",
+			"themeRules",
+			"fontRules",
+			"cssRules",
+			"setCssRule"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/questionnaires/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/questionnaires_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2392,
+								2392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1195,
+								1195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/quest_beer.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/questionnaire.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "db/schema.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1391,
+								1392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 33.0
+	},
+	"output.find_results":
+	{
+		"height": 88.0
+	},
+	"project": "beerapp.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"questionnair",
+				"app/models/questionnaire.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"quest_bee",
+				"app/models/quest_beer.rb"
+			],
+			[
+				"quest/inde",
+				"app/views/quest_beers/index.html.erb"
+			],
+			[
+				"questions/s",
+				"app/views/questionnaires/show.html.erb"
+			],
+			[
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				".css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"question/index",
+				"app/views/questionnaires/index.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"brand",
+				"app/models/brand.rb"
+			],
+			[
+				"update",
+				"db/migrate/20140507175804_update_education.rb"
+			],
+			[
+				"sex.",
+				"app/models/sex.rb"
+			],
+			[
+				"sexes_co",
+				"app/controllers/sexes_controller.rb"
+			],
+			[
+				"sexe",
+				"app/controllers/sexes_controller.rb"
+			],
+			[
+				"change_",
+				"db/migrate/20140507174415_change_sexes.rb"
+			],
+			[
+				"migr",
+				"db/migrate/20140418154549_create_sexes.rb"
+			],
+			[
+				"lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"beers_co",
+				"app/controllers/beers_controller.rb"
+			],
+			[
+				"quest",
+				"app/controllers/questionnaires_controller.rb"
+			],
+			[
+				"sex",
+				"app/models/sex.rb"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"footer_",
+				"templates/partials/footer_scripts.hbs"
+			],
+			[
+				"footer_s",
+				"templates/partials/footer_scripts.hbs"
+			],
+			[
+				"foot",
+				"templates/partials/footer.hbs"
+			],
+			[
+				"head",
+				"templates/partials/header.hbs"
+			],
+			[
+				"footer",
+				"templates/partials/footer_scripts.hbs"
+			],
+			[
+				"header",
+				"templates/partials/header.hbs"
+			],
+			[
+				"vehic",
+				"templates/pages/vehicles.hbs"
+			],
+			[
+				"_sear",
+				"app/styles/_searchmask.scss"
+			],
+			[
+				"searchm",
+				"app/searchmask-a.html"
+			],
+			[
+				"search",
+				"app/styles/_searchmask.scss"
+			],
+			[
+				"_light",
+				"app/styles/_lightbox.scss"
+			],
+			[
+				"main",
+				"app/styles/main.scss"
+			],
+			[
+				"main.scs",
+				"app/styles/main.scss"
+			],
+			[
+				"reul",
+				"templates/pages/result-list.hbs"
+			],
+			[
+				"result-",
+				"templates/pages/result-mosaik.hbs"
+			],
+			[
+				"re",
+				"app/result-mosaik.html"
+			],
+			[
+				"icon-gr",
+				"app/images/icon-grid.svg"
+			],
+			[
+				"icon-l",
+				"app/images/icon-list.svg"
+			],
+			[
+				"res",
+				"app/result-list.html"
+			],
+			[
+				"deta",
+				"app/detail-view.html"
+			],
+			[
+				"_bas",
+				"app/styles/_base.scss"
+			],
+			[
+				"comparison",
+				"templates/partials/comparison_three.hbs"
+			],
+			[
+				"main.",
+				"app/scripts/main.js"
+			],
+			[
+				"scrip",
+				"bower_components/jquery/src/ajax/script.js"
+			],
+			[
+				"comparison_th",
+				"templates/partials/comparison_three.hbs"
+			],
+			[
+				"compa",
+				"templates/pages/comparison.hbs"
+			],
+			[
+				"_com",
+				"app/styles/_comparison.scss"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"_fon",
+				"app/styles/_fontello.scss"
+			],
+			[
+				"_comp",
+				"app/styles/_comparison.scss"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"script",
+				"bower_components/jquery/src/ajax/script.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"main.js",
+				"app/scripts/main.js"
+			],
+			[
+				"hea",
+				"templates/partials/header.hbs"
+			],
+			[
+				"main.scss",
+				"app/styles/main.scss"
+			],
+			[
+				"heade",
+				"templates/partials/header.hbs"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"light",
+				"styles/_lightbox.scss"
+			],
+			[
+				"sear",
+				"styles/_searchmask.scss"
+			],
+			[
+				"sri",
+				"javascript/scripts.js"
+			],
+			[
+				"styles",
+				"styles/screen.scss"
+			],
+			[
+				"mobile",
+				"pages/_comparison_item_mobile.kit"
+			],
+			[
+				"comp",
+				"comparison.html"
+			],
+			[
+				"screen.scss",
+				"styles/screen.scss"
+			],
+			[
+				"fonte",
+				"styles/fontello.css"
+			],
+			[
+				"_fonte",
+				"styles/_fontello.scss"
+			],
+			[
+				"fontell",
+				"styles/fontello.css"
+			],
+			[
+				"search_al",
+				"pages/_search_alert.kit"
+			],
+			[
+				"_sar",
+				"pages/_search_alert.kit"
+			],
+			[
+				"_sea",
+				"styles/_searchmask.scss"
+			],
+			[
+				"media",
+				"styles/_mediaqueries.scss"
+			],
+			[
+				"chosen",
+				"plugins/chosen/chosen.css"
+			],
+			[
+				"scren",
+				"styles/screen.scss"
+			],
+			[
+				"medi",
+				"styles/_mediaqueries.scss"
+			],
+			[
+				"queri",
+				"styles/_mediaqueries.scss"
+			],
+			[
+				"vehi",
+				"pages/vehicles.kit"
+			],
+			[
+				"scree",
+				"styles/screen.scss"
+			],
+			[
+				"banne",
+				"pages/_banner.kit"
+			],
+			[
+				"screen.scs",
+				"styles/screen.scss"
+			],
+			[
+				"detail",
+				"detail-view.html"
+			],
+			[
+				"scrit",
+				"javascript/scripts.js"
+			],
+			[
+				"detail-",
+				"detail-view.html"
+			],
+			[
+				"deal",
+				"dealer-search.html"
+			],
+			[
+				"base",
+				"styles/_base.scss"
+			],
+			[
+				"font",
+				"styles/_fontello.scss"
+			],
+			[
+				"ser",
+				"styles/_searchmask.scss"
+			],
+			[
+				"moderni",
+				"javascript/modernizr.js"
+			],
+			[
+				"scr",
+				"javascript/scripts.js"
+			],
+			[
+				"_na",
+				"styles/_navigation.scss"
+			],
+			[
+				"fon",
+				"styles/_fontello.scss"
+			],
+			[
+				"style.scs",
+				"styles/_base.scss"
+			],
+			[
+				"screen",
+				"styles/screen.scss"
+			],
+			[
+				"arrow-",
+				"images/arrow-blue.svg"
+			],
+			[
+				"screen.css",
+				"styles/screen.css"
+			],
+			[
+				"detai",
+				"detail-view.html"
+			],
+			[
+				"vehicl",
+				"vehicles.html"
+			],
+			[
+				"result-li",
+				"result-list.html"
+			],
+			[
+				"vei",
+				"vehicles.html"
+			],
+			[
+				"contact",
+				"contact.html"
+			],
+			[
+				"extr",
+				"javascript/extras.js"
+			],
+			[
+				"content",
+				"content-page.html"
+			],
+			[
+				"searchmask",
+				"searchmask.html"
+			],
+			[
+				"detail-view",
+				"detail-view.html"
+			],
+			[
+				"scripts.js",
+				"javascript/scripts.js"
+			],
+			[
+				"moder",
+				"javascript/modernizr.js"
+			],
+			[
+				"searc",
+				"searchmask.html"
+			],
+			[
+				"bool/for",
+				"app/views/bool_parameters/_form.html.erb"
+			],
+			[
+				"widgets_co",
+				"app/controllers/widgets_controller.rb"
+			],
+			[
+				"widgets/for",
+				"app/views/widgets/_form.html.erb"
+			],
+			[
+				"add_note",
+				"db/migrate/20140312132420_add_notes_to_widgets.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"list_values",
+				"app/controllers/list_values_controller.rb"
+			],
+			[
+				"a",
+				"app/models/ability.rb"
+			],
+			[
+				"parame",
+				"app/models/parameter.rb"
+			],
+			[
+				"abil",
+				"app/models/ability.rb"
+			],
+			[
+				"number",
+				"app/controllers/number_parameters_controller.rb"
+			],
+			[
+				"url_parame",
+				"app/controllers/url_parameters_controller.rb"
+			],
+			[
+				"parameters_co",
+				"app/controllers/parameters_controller.rb"
+			],
+			[
+				"text_parameters_co",
+				"app/controllers/text_parameters_controller.rb"
+			],
+			[
+				"list_value_co",
+				"app/controllers/list_values_controller.rb"
+			],
+			[
+				"list_va",
+				"app/models/list_value.rb"
+			],
+			[
+				"list_parameters_",
+				"app/controllers/list_parameters_controller.rb"
+			],
+			[
+				"contents_co",
+				"app/controllers/contents_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Sublime Projects/yfm.sublime-project"
+			],
+			[
+				"mucow",
+				"~/Sites/mucows/mucows.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 382.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

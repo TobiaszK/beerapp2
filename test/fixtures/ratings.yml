@@ -1,6 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  beer_id: 
+  questionnaire_id: 
   taste: 1
   color: 1
   price: 1
@@ -8,6 +10,8 @@ one:
   average: 1.5
 
 two:
+  beer_id: 
+  questionnaire_id: 
   taste: 1
   color: 1
   price: 1

@@ -7,7 +7,7 @@
 
 <p>
   <strong>Sex:</strong>
-  <%= @questionnaire.sex %>
+  <%= @questionnaire.sex.try(:name) %>
 </p>
 
 <p>
@@ -17,8 +17,20 @@
 
 <p>
   <strong>Education:</strong>
-  <%= @questionnaire.education.typ %>
+  <%= @questionnaire.education.try(:name) %>
 </p>
+
+<h2>Oceny</h2>
+<% @questionnaire.ratings.each do |rating| %>
+<h3><%= rating.beer.try(:brand).try(:name) %> <%= rating.beer.try(:name) %></h3>
+<ul>
+    <li>Smak: <%= rating.taste %></li>
+    <li>Kolor: <%= rating.color %></li>
+    <li>Cena: <%= rating.price %></li>
+    <li>Design: <%= rating.design %></li>
+    <li>Srednia: <%= rating.average %></li>
+</ul>
+<% end %>
 
 <%= link_to 'Edit', edit_questionnaire_path(@questionnaire) %> |
 <%= link_to 'Back', questionnaires_path %>

@@ -16,6 +16,10 @@ class QuestionnairesController < ApplicationController
   # GET /questionnaires/new
   def new
     @questionnaire = Questionnaire.new
+
+    Beer.all.each do |beer|
+      @questionnaire.ratings.build(beer: beer)
+    end
   end
 
   # GET /questionnaires/1/edit
@@ -26,7 +30,7 @@ class QuestionnairesController < ApplicationController
   # POST /questionnaires.json
   def create
     @questionnaire = Questionnaire.new(questionnaire_params)
-    
+
     respond_to do |format|
       if @questionnaire.save
         format.html { redirect_to @questionnaire, notice: 'Questionnaire was successfully created.' }
@@ -70,6 +74,19 @@ class QuestionnairesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def questionnaire_params
-      params.require(:questionnaire).permit(:age, :sex, :city, :education_id)
+      params.require(:questionnaire).permit(
+        :age,
+        :sex_id,
+        :city,
+        :education_id,
+        :ratings_attributes => [
+          :id,
+          :beer_id,
+          :taste,
+          :color,
+          :price,
+          :design
+        ]
+      )
     end
 end

@@ -8,7 +8,18 @@
 </head>
 <body>
 
-<%= yield %>
+    <div class="root">
 
+        <h1 class="site-title">Piwo</h1>
+        <nav class="primary-nav">
+            <h2>Nawigacja</h2>
+            <ul>
+                <li><%= link_to "Ankiety", :questionnaires %></li>
+                <li><%= link_to "Piwa", :beers %></li>
+            </ul>
+        </nav>
+
+        <%= yield %>
+    </div>
 </body>
 </html>

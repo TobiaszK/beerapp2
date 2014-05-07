@@ -7,16 +7,14 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 sex = Sex.create([
-	{typs: "Niewybrano"},
-  { typs: "Mezczyzna"},
-  { typs: "Kobieta"}
+  { name: "Mezczyzna"},
+  { name: "Kobieta"}
 ])
 
 education = Education.create([
-	{typ: "Niewybrano"},
-  { typ: "Podstawowe"},
-  { typ: "Średnie"},
-  { typ: "Wyższe"}
+  { name: "Podstawowe"},
+  { name: "Średnie"},
+  { name: "Wyższe"}
 ])
 
 brands = Brand.create([

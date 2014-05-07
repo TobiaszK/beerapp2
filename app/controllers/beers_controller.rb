@@ -4,7 +4,7 @@ class BeersController < ApplicationController
   # GET /beers
   # GET /beers.json
   def index
-    @questionnaires = Questionnaire.find(params[:questionnaire_id])
+    # @questionnaires = Questionnaire.find(params[:questionnaire_id])
     @beers = Beer.all
   end
 

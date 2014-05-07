@@ -1,9 +1,8 @@
 class Questionnaire < ActiveRecord::Base
-  belongs_to :education 
+  belongs_to :education
   belongs_to :sex
-  has_many :quest_beers
-
-  has_and_belongs_to_many :beers
+  has_many :ratings
 
   validates :age, presence: true
+  accepts_nested_attributes_for :ratings
 end

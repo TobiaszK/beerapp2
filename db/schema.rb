@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140418165401) do
+ActiveRecord::Schema.define(version: 20140507185845) do
 
   create_table "beers", force: true do |t|
     t.string   "name"
@@ -31,9 +31,9 @@ ActiveRecord::Schema.define(version: 20140418165401) do
   end
 
   create_table "educations", force: true do |t|
-    t.string   "typ"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
   end
 
   create_table "quest_beers", id: false, force: true do |t|
@@ -62,10 +62,25 @@ ActiveRecord::Schema.define(version: 20140418165401) do
   add_index "questionnaires", ["education_id"], name: "index_questionnaires_on_education_id"
   add_index "questionnaires", ["sex_id"], name: "index_questionnaires_on_sex_id"
 
-  create_table "sexes", force: true do |t|
-    t.string   "typs"
+  create_table "ratings", force: true do |t|
+    t.integer  "beer_id"
+    t.integer  "questionnaire_id"
+    t.integer  "taste"
+    t.integer  "color"
+    t.integer  "price"
+    t.integer  "design"
+    t.float    "average"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  add_index "ratings", ["beer_id"], name: "index_ratings_on_beer_id"
+  add_index "ratings", ["questionnaire_id"], name: "index_ratings_on_questionnaire_id"
+
+  create_table "sexes", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
   end
 
 end

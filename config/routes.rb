@@ -1,26 +1,10 @@
 BeerApp::Application.routes.draw do
-  get "quest_beers/index"
-  get "quest_beers/show"
-  get "quest_beers/new"
-  get "quest_beers/edit"
+
+  root "questionnaires#index"
+
   resources :beers
 
-  resources :sexes
-
-  resources :educations
-
-  resources :questionnaires do
-      resources :beers do
-        resources :quest_beers
-    end
-  end
-
-  resources :questionnaires do
-             resources :quest_beers
-  end
-
-  resources :quest_beers
- 
+  resources :questionnaires
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -62,7 +46,7 @@ BeerApp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

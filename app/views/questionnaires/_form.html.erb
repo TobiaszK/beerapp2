@@ -1,4 +1,4 @@
-<%= form_for(@questionnaire) do |f| %>
+<%= simple_form_for(@questionnaire) do |f| %>
   <% if @questionnaire.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@questionnaire.errors.count, "error") %> prohibited this questionnaire from being saved:</h2>
@@ -11,22 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :age %><br>
-    <%= f.number_field :age %>
-  </div>
-  <div class="field">
-    <%= f.label :sex %><br>
-    <%= f.select :sex_id, options_from_collection_for_select(Sex.all, :id, :typs) %>
-  </div>
-  <div class="field">
-    <%= f.label :city %><br>
-    <%= f.text_field :city %>
-  </div>
-  <div class="field">
-    <%= f.label :education %><br>
-    <%= f.select :education_id, options_from_collection_for_select(Education.all, :id, :typ) %>
-  </div>
+  <%= f.input :age, label: "Wiek" %>
+  <%= f.association :sex, label: "Płeć", as: :radio_buttons, label_method: :name %>
+  <%= f.input :city, label: "Miasto" %>
+  <%= f.association :education, label: "Wykształcenie", as: :radio_buttons, label_method: :name %>
+
+  <%= f.simple_fields_for :ratings do |r| %>
+    <%= r.input :beer_id, as: :hidden %>
+    <h3><%= r.object.beer.try(:brand).try(:name) %> <%= r.object.beer.try(:name) %></h3>
+
+    <%= r.input :taste %>
+    <%= r.input :color %>
+    <%= r.input :price %>
+    <%= r.input :design %>
+
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>
