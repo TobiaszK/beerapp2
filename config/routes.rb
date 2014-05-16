@@ -1,11 +1,22 @@
 BeerApp::Application.routes.draw do
 
+  devise_for :users, :skip => :registrations
   root "questionnaires#index"
 
   resources :beers
 
   resources :questionnaires
+  
 
+ get "/info/index.html.erb", to: 'info#index', as: "info_path"
+
+ post "/questionnaires/new", to: "questionnaires#new", as: "new_questionnaire_path"
+ post "/", to: "questionnaires#index", as: "main"
+ post "/questionnaires/:id/edit"  , to: "questionnaires#edit", as: "edit_questionnaire_path"
+get '/opis_projectu', :to => redirect('/project_info.html')
+ 
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

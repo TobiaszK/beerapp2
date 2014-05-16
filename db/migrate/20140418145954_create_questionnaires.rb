@@ -5,6 +5,7 @@ class CreateQuestionnaires < ActiveRecord::Migration
       t.belongs_to :sex, index: true
       t.string :city
       t.belongs_to :education, index: true
+     
 
       t.timestamps
     end

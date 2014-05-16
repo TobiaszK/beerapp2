@@ -1,9 +1,13 @@
 class QuestionnairesController < ApplicationController
   before_action :set_questionnaire, only: [:show, :edit, :update, :destroy]
 
+  
+
+  
   # GET /questionnaires
   # GET /questionnaires.json
   def index
+
     @questionnaires = Questionnaire.all
   end
 
@@ -25,6 +29,9 @@ class QuestionnairesController < ApplicationController
   # GET /questionnaires/1/edit
   def edit
   end
+  
+  def project_info
+  end
 
   # POST /questionnaires
   # POST /questionnaires.json
@@ -33,7 +40,7 @@ class QuestionnairesController < ApplicationController
 
     respond_to do |format|
       if @questionnaire.save
-        format.html { redirect_to @questionnaire, notice: 'Questionnaire was successfully created.' }
+        format.html { redirect_to @questionnaire, notice: 'Brawo, dotarłeś do końca ankiety. Wielkie dzięki za poświęcony czas.' }
         format.json { render action: 'show', status: :created, location: @questionnaire }
       else
         format.html { render action: 'new' }
@@ -47,7 +54,7 @@ class QuestionnairesController < ApplicationController
   def update
     respond_to do |format|
       if @questionnaire.update(questionnaire_params)
-        format.html { redirect_to @questionnaire, notice: 'Questionnaire was successfully updated.' }
+        format.html { redirect_to @questionnaire, notice: 'Zaktualizowałes swoją ankietę. Dzięki wielkie za rzetelność' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

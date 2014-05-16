@@ -4,12 +4,23 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  background-image: url("/assets/jasneprawo.jpg");
+  padding-top: 5%;
+  background-image: white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  backgorund-position:center 35%;
+
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+.wroc{
+  color:white;
 }
 
 pre {
@@ -27,6 +38,9 @@ a {
     color: #fff;
     background-color: #000;
   }
+}
+a.wroc{
+  color:#333;
 }
 
 div {
@@ -67,3 +81,56 @@ div {
     list-style: square;
   }
 }
+
+.smak,.kolor,.cena,.design{
+  margin-bottom:3%;
+}
+
+.imgag{
+  background-image: url('/assets/beer_by.png');
+}
+
+
+@media (max-width: 768px) {
+
+
+  body{
+      padding-top: 15%;
+  
+      background-position: 45%;
+    }
+
+    a.wroc{
+    display:none;
+    }
+  }
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning:checked,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.obraz{
+  width:100px;
+  height:170px;
+}
+
+
+
+
+
+
+
+

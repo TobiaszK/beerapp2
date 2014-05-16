@@ -21,3 +21,9 @@ brands = Brand.create([
   { name: 'Lech' },
   { name: 'Warka' }
 ])
+user = User.new(
+      :email                 => "tobiasz_3@wp.pl",
+      :password              => "123456",
+      :password_confirmation => "123456"
+  )
+user.save!(:validate => false)

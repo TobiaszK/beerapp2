@@ -1,5 +1,4 @@
-<h1>Ankiety</h1>
-
+<% if user_signed_in? %>
 <table>
   <thead>
     <tr>
@@ -22,12 +21,22 @@
         <td><%= questionnaire.education.try(:name) %></td>
         <td><%= link_to 'Show', questionnaire %></td>
         <td><%= link_to 'Edit', edit_questionnaire_path(questionnaire) %></td>
-
         <td><%= link_to 'Destroy', questionnaire, method: :delete, data: { confirm: 'Are you sure?' } %>
         </td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
 <p><%= link_to 'Nowa ankieta', new_questionnaire_path %></p>
+
+<% else %>
+
+<div class="row col-md-4 col-md-offset-4 ">
+          <%= image_tag "beer_by.png", data: { src: "beer_by.png" }, :class => "img-circle" %>
+          <h2>Oddaj swoje glosy</h2>
+          <p>Ocen piwa, które znasz. <b> Nie musisz oceniać wszystkich! </b> Pomoż zbierać dane do pracy licencjackiej. Jeśli uważasz, że jakies piwo jest ważne, a go tutaj nie będzie, wyślij wiadomość w zakładce Kontakt.</p>
+         <p><%= button_to 'Wypełnij ankiete', new_questionnaire_path , :class => 'btn btn-success' %></p>
+
+</div><!-- /.col-lg-4 -->
+
+<% end %>

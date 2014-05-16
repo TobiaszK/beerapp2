@@ -11,18 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140507185845) do
+ActiveRecord::Schema.define(version: 20140516151728) do
 
   create_table "beers", force: true do |t|
     t.string   "name"
     t.integer  "brand_id"
-    t.integer  "image_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "beers", ["brand_id"], name: "index_beers_on_brand_id"
-  add_index "beers", ["image_id"], name: "index_beers_on_image_id"
 
   create_table "brands", force: true do |t|
     t.string   "name"
@@ -35,20 +37,6 @@ ActiveRecord::Schema.define(version: 20140507185845) do
     t.datetime "updated_at"
     t.string   "name"
   end
-
-  create_table "quest_beers", id: false, force: true do |t|
-    t.integer  "questionnaire_id", null: false
-    t.integer  "beer_id",          null: false
-    t.integer  "taste"
-    t.integer  "color"
-    t.integer  "price"
-    t.integer  "design"
-    t.float    "average"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "quest_beers", ["questionnaire_id", "beer_id"], name: "index_quest_beers_on_questionnaire_id_and_beer_id", unique: true
 
   create_table "questionnaires", force: true do |t|
     t.integer  "age"
@@ -82,5 +70,23 @@ ActiveRecord::Schema.define(version: 20140507185845) do
     t.datetime "updated_at"
     t.string   "name"
   end
+
+  create_table "users", force: true do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
 end

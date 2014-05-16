@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+
 
 <p>
   <strong>Name:</strong>
@@ -12,7 +12,7 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @beer.image %>
+  <%= @beer.image.url %>
 </p>
 
 <%= link_to 'Edit', edit_beer_path(@beer) %> |

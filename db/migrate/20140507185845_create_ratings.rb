@@ -8,7 +8,6 @@ class CreateRatings < ActiveRecord::Migration
       t.integer :price
       t.integer :design
       t.float :average
-
       t.timestamps
     end
   end

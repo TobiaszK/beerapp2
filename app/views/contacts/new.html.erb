@@ -1,0 +1,34 @@
+<div align="center">
+  <h3>Wyślij mi wiadomość</h3>
+
+  <%= simple_form_for @contact, :html => {:class => 'row form-horizontal', :role => 'form' } do |f| %>
+    
+    <div class="imie">Podaj imię i nazwisko:
+            <div class="input-group">
+              <%= f.input :name,label: false, :required => true, input_html: {class: 'form-control', type: 'text'} %>
+            
+            </div>
+    </div>
+
+    <div class="mail">Mail:
+            <div class="input-group">
+              <%= f.input :email,label: false, :required => true, input_html: {class: 'form-control', type: 'text'} %>
+              
+            </div>
+    </div>
+    
+    <div class="">Wiadomość: 
+            <div class="input-group ">
+               <%= f.input :message,label: false, :as => :text, :required => true, input_html: {class: 'form-control', type: 'text'}  %>
+              
+            </div>
+    </div>
+
+    
+    
+    <div>
+      </br>
+      <%= f.button :submit, 'Wyślij wiadomość', :class=> "btn btn-primary" %>
+    </div>
+  
+  <% end %>
