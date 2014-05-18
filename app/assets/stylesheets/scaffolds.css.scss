@@ -1,11 +1,10 @@
-//= depend_on_asset "jasneprawo.jpg"
 body {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  background-image: url('<%= asset_path("jasneprawo.jpg") %>');
+  background-image:url('jasneprawo.jpg');
   padding-top: 5%;
   background-image: white;
   background-repeat:no-repeat;
