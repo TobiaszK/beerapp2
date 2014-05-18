@@ -17,6 +17,22 @@
 
  */
 
+ body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-image:asset-url("jasneprawo.jpg");
+  padding-top: 5%;
+  background-image: white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  backgorund-position:center 35%;
+
+}
+
 .root {
     max-width: 980px;
     margin: 1em auto;
