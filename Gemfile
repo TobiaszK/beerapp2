@@ -52,5 +52,4 @@ gem 'mail_form'
 gem 'paperclip'
 
 gem 'pg'
-
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
