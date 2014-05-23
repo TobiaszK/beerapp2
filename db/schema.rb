@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140516151728) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "beers", force: true do |t|
     t.string   "name"
     t.integer  "brand_id"
@@ -27,7 +24,7 @@ ActiveRecord::Schema.define(version: 20140516151728) do
     t.datetime "image_updated_at"
   end
 
-  add_index "beers", ["brand_id"], name: "index_beers_on_brand_id", using: :btree
+  add_index "beers", ["brand_id"], name: "index_beers_on_brand_id"
 
   create_table "brands", force: true do |t|
     t.string   "name"
@@ -50,8 +47,8 @@ ActiveRecord::Schema.define(version: 20140516151728) do
     t.datetime "updated_at"
   end
 
-  add_index "questionnaires", ["education_id"], name: "index_questionnaires_on_education_id", using: :btree
-  add_index "questionnaires", ["sex_id"], name: "index_questionnaires_on_sex_id", using: :btree
+  add_index "questionnaires", ["education_id"], name: "index_questionnaires_on_education_id"
+  add_index "questionnaires", ["sex_id"], name: "index_questionnaires_on_sex_id"
 
   create_table "ratings", force: true do |t|
     t.integer  "beer_id"
@@ -65,8 +62,8 @@ ActiveRecord::Schema.define(version: 20140516151728) do
     t.datetime "updated_at"
   end
 
-  add_index "ratings", ["beer_id"], name: "index_ratings_on_beer_id", using: :btree
-  add_index "ratings", ["questionnaire_id"], name: "index_ratings_on_questionnaire_id", using: :btree
+  add_index "ratings", ["beer_id"], name: "index_ratings_on_beer_id"
+  add_index "ratings", ["questionnaire_id"], name: "index_ratings_on_questionnaire_id"
 
   create_table "sexes", force: true do |t|
     t.datetime "created_at"
@@ -89,7 +86,7 @@ ActiveRecord::Schema.define(version: 20140516151728) do
     t.datetime "updated_at"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
 end
