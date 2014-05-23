@@ -1,159 +1,103 @@
 <%= simple_form_for(@questionnaire) do |f| %>
-  
-
-  <div class="dane">
-      <div class="row form-horizontal" role="form">
-     
-          <p class="prosba"> Wypełnij podstawowe informacje o sobie, pomóż zbierać dane. </p>
-          
-          <div class="wiek"><p>Podaj wiek*:<p>
-            <div class="input-group wpisz">
-              <%= f.input :age, label: false, input_html: {class: 'form-control', type: 'text'} %>
-              <span class="input-group-addon">lat</span>
-            </div>
-          </div>
-   
-
-          <div class="plec">Wybierz płeć: 
-            <div class="btn-group dropy">
-            <%= f.association :sex, label: false, as: :radio_buttons, label_method: :name%>
-            </div>
-
-          </div>
 
 
+<div class="dane">
+  <div class="row form-horizontal" role="form">
 
-          <div class="miasto"><p>Wpisz miasto pobytu: </p>
+    <p class="prosba"> Wypełnij podstawowe informacje o sobie, pomóż zbierać dane. </p>
 
-            <div class="input-group wpisz">
-              
-              <%= f.input :city, label: false, input_html: {class: 'form-control', type: 'text'} %>
-              
-              <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
-            </div>
-
-          </div>
-
-
-          <div class="wyksztalcenie">Wykształcenie: 
-      
-          <div class="btn-group dropy">
-              
-              <%= f.association :education, label: false, as: :radio_buttons, label_method: :name %>
-            </div>
-
-            </div>
-            <h8>* - wymagane</h8>
-
-              <div class="dalej">
-              <span class="label label-info">A teraz oceń piwa</span>
-              </div>
-            
-        
-       
+    <div class="wiek"><p>Podaj wiek*:<p>
+      <div class="input-group wpisz">
+        <%= f.input :age, label: false, input_html: {class: 'form-control', type: 'text'} %>
+        <span class="input-group-addon">lat</span>
       </div>
-      </div>
-      <div class="row beers">
-        <%= f.simple_fields_for :ratings do |r| %>
-        <div class="col-lg-4">
-        <div class="piwko">
-          <div class="dane-piwa">
-            
-            <%= r.input :beer_id, as: :hidden %>
-            <h3><%= r.object.beer.try(:brand).try(:name) %> <%= r.object.beer.try(:name) %></h3>
+    </div>
 
-            
-            <%= image_tag r.object.beer.image,  :class =>''  %>
-          </div>
-          <div class="oceny">
-                <div class="smak"> 
-                  <p>Smak: </p>   
-                    <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:taste,"1") %> 1
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:taste,"2") %>2
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:taste,"3") %>3
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:taste,"4") %>4
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:taste,"5") %>5
-                      </label>
-                  </div>
-                  </div>
-                <div class="cena"> 
-                  <p>Cena: </p>   
-                    <div class="btn-group" data-toggle="buttons">
-                       <label class="btn btn-warning">
-                        <%=r.radio_button(:price,"1") %>1
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:price,"2") %>2
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:price,"3") %>3
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:price,"4") %>4
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:price,"5") %>5
-                      </label>
-                    </div>
-                  </div>
-                  <div class="kolor"> 
-                  <p>Kolor: </p>   
-                   <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:color,"1")%>1
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:color,"2") %>2
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:color,"3") %>3
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:color,"4") %>4
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:color,"5") %>5
-                      </label>
-                    </div>
-                  </div>
-                  <div class="design"> 
-                  <p>Design produktu: </p>   
-                    <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:design,"1") %>1
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:design,"2") %>2
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:design,"3") %>3
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:design,"4") %>4
-                      </label>
-                      <label class="btn btn-warning">
-                        <%=r.radio_button(:design,"5") %>5
-                      </label>
-                    </div>
-                  </div>
-                
-              </div> 
-            </div>
+
+    <div class="plec">Wybierz płeć:
+      <div class="btn-group dropy">
+        <%= f.association :sex, label: false, as: :radio_buttons, label_method: :name%>
+      </div>
+
+    </div>
+
+
+
+    <div class="miasto"><p>Wpisz miasto pobytu: </p>
+
+      <div class="input-group wpisz">
+
+        <%= f.input :city, label: false, input_html: {class: 'form-control', type: 'text'} %>
+
+        <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
+      </div>
+
+    </div>
+
+
+    <div class="wyksztalcenie">Wykształcenie:
+
+      <div class="btn-group dropy">
+
+        <%= f.association :education, label: false, as: :radio_buttons, label_method: :name %>
+      </div>
+
+    </div>
+    <h8>* - wymagane</h8>
+
+    <div class="dalej">
+      <span class="label label-info">A teraz oceń piwa</span>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+  <div class="row beers">
+  <%= f.simple_fields_for :ratings do |r| %>
+  <% if r.index > 0 and r.index%3 == 0 %>
+    </div>
+    <div class="row">
+  <% end %>
+  <div class="col-lg-4">
+    <div class="piwko">
+      <div class="dane-piwa">
+
+        <%= r.input :beer_id, as: :hidden %>
+        <h3><%= r.object.beer.try(:brand).try(:name) %> <%= r.object.beer.try(:name) %></h3>
+
+
+        <%= image_tag r.object.beer.image,  :class =>''  %>
+      </div>
+      <div class="oceny">
+
+
+        <div class="smak">
+          <p>Smak: </p>
+          <%= r.input :taste, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
         </div>
-      <% end %> 
-      
+        <div class="cena">
+          <p>Cena: </p>
+          <%= r.input :price, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+      </div>
+      <div class="kolor">
+        <p>Kolor: </p>
+        <%= r.input :color, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+      </div>
+      <div class="design">
+        <p>Design produktu: </p>
+        <%= r.input :design, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+      </div>
+
     </div>
-    <div class="row btn-group ">
-        <%= f.submit "Zapisz", :class => "btn btn-success", :confirm => 'Czy na pewno chcesz zapisać swoje oceny?'%>
-    </div>
+  </div>
+</div>
+<% end %>
+</div>
+
+<div class="row btn-group ">
+  <%= f.submit "Zapisz", :class => "btn btn-success", :confirm => 'Czy na pewno chcesz zapisać swoje oceny?'%>
+</div>
 <% end %>
