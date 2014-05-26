@@ -66,29 +66,29 @@
       <div class="dane-piwa">
 
         <%= r.input :beer_id, as: :hidden %>
-        <h3><%= r.object.beer.try(:brand).try(:name) %> <%= r.object.beer.try(:name) %></h3>
+        <h3><%= r.object.beer.try(:name) %></h3>
 
 
-        <%= image_tag r.object.beer.image,  :class =>''  %>
+        
       </div>
       <div class="oceny">
 
 
         <div class="smak">
           <p>Smak: </p>
-          <%= r.input :taste, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+          <%= r.input :taste, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..4 %>
         </div>
         <div class="cena">
           <p>Cena: </p>
-          <%= r.input :price, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+          <%= r.input :price, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..4 %>
       </div>
       <div class="kolor">
         <p>Kolor: </p>
-        <%= r.input :color, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+        <%= r.input :color, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..4 %>
       </div>
       <div class="design">
         <p>Design produktu: </p>
-        <%= r.input :design, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..5 %>
+        <%= r.input :design, label: false, as: :radio_buttons, wrapper_html: { class: "btn-group", data: { toggle: "buttons" }}, item_wrapper_class: "btn btn-warning", collection: 1..4 %>
       </div>
 
     </div>

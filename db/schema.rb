@@ -18,6 +18,11 @@ ActiveRecord::Schema.define(version: 20140526095220) do
 
   create_table "beers", force: true do |t|
     t.string   "name"
+    t.integer  "kind_id"
+    t.integer  "sort_id"
+    t.integer  "cost_id"
+    t.integer  "region_id"
+    t.integer  "processing_id"
     t.integer  "brand_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -28,6 +33,11 @@ ActiveRecord::Schema.define(version: 20140526095220) do
   end
 
   add_index "beers", ["brand_id"], name: "index_beers_on_brand_id", using: :btree
+  add_index "beers", ["cost_id"], name: "index_beers_on_cost_id", using: :btree
+  add_index "beers", ["kind_id"], name: "index_beers_on_kind_id", using: :btree
+  add_index "beers", ["processing_id"], name: "index_beers_on_processing_id", using: :btree
+  add_index "beers", ["region_id"], name: "index_beers_on_region_id", using: :btree
+  add_index "beers", ["sort_id"], name: "index_beers_on_sort_id", using: :btree
 
   create_table "brands", force: true do |t|
     t.string   "name"
