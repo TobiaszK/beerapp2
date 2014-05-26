@@ -1,5 +1,5 @@
 class Beer < ActiveRecord::Base
-  belongs_to :brand
+  belongs_to :brand, :cost, :kind, :processing, :region, :sort
 
   has_attached_file :image, {
     :default_url => "beer_by.png",
