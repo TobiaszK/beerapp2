@@ -21,23 +21,23 @@
   </div>
   <div class="field">
     <%= f.label :kind %><br>
-    <%= f.select :kind_id, options_from_collection_for_select(Kind.all, :id, :name) %>
+    <%= f.select :kind, options_from_collection_for_select(Kind.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :sort %><br>
-    <%= f.select :sort_id, options_from_collection_for_select(Sort.all, :id, :name) %>
+    <%= f.select :sort, options_from_collection_for_select(Sort.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :processing %><br>
-    <%= f.select :processing_id, options_from_collection_for_select(Processing.all, :id, :name) %>
+    <%= f.select :processing, options_from_collection_for_select(Processing.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :cost %><br>
-    <%= f.select :cost_id, options_from_collection_for_select(Cost.all, :id, :name) %>
+    <%= f.select :cost, options_from_collection_for_select(Cost.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :region %><br>
-    <%= f.select :region_id, options_from_collection_for_select(Region.all, :id, :name) %>
+    <%= f.select :region, options_from_collection_for_select(Region.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :image %><br>

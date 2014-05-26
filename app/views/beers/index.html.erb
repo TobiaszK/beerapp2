@@ -6,11 +6,12 @@
       <th>ID</th>
       <th>Name</th>
       <th>Brand</th>
-      <th>Image</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
+      <th>Kind</th>
+      <th>Sort</th>
+      <th>Processing</th>
+      <th>Region</th>
+      <th>Cost</th>
+      </tr>
   </thead>
 
   <tbody>
@@ -20,7 +21,11 @@
         <td><%= beer.id %></td>
         <td><%= beer.name %></td>
         <td><%= beer.brand.name %></td>
-        <td><%= beer.image %></td>
+        <td><%= beer.kind.name %></td>
+        <td><%= beer.sort.name %></td>
+        <td><%= beer.processing.name %></td>
+        <td><%= beer.region.name %></td>
+        <td><%= beer.cost.name %></td>
         <td><%= link_to 'Show', beer %></td>
      
         <td><%= link_to 'Edit', edit_beer_path(beer) %></td>
