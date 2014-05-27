@@ -11,6 +11,9 @@ class BeersController < ApplicationController
     @beers = Beer.all
   end
 
+  def random
+  end
+
   # GET /beers/1
 
   # GET /beers/1.json
@@ -76,4 +79,6 @@ class BeersController < ApplicationController
     def beer_params
       params.require(:beer).permit(:name, :brand_id, :image, :kind_id, :cost_id, :processing_id, :region_id, :sort_id)
     end
+
+
 end

@@ -39,10 +39,6 @@
     <%= f.label :region %><br>
     <%= f.select :region_id, options_from_collection_for_select(Region.all, :id, :name) %>
   </div>
-  <div class="field">
-    <%= f.label :image %><br>
-    <%= f.file_field :image %>
-  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

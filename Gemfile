@@ -53,3 +53,5 @@ gem 'pg'
 gem 'rails_12factor', group: :production
 
 gem "autoprefixer-rails"
+
+gem 'randumb'

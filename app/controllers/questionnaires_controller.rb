@@ -21,9 +21,16 @@ class QuestionnairesController < ApplicationController
   def new
     @questionnaire = Questionnaire.new
 
-    Beer.all.each do |beer|
+      @random1 = Beer.order_by_rand.where(kind_id: "2").limit(9)
+      @random2 = Beer.order_by_rand.where(kind_id: "3").limit(3)
+      @random3 = Beer.order_by_rand.where(kind_id: "4").limit(3)
+      @random4 = Beer.order_by_rand.where(kind_id: "5").limit(3)
+
+      (@random1+@random2+@random3+@random4).each do |beer|
       @questionnaire.ratings.build(beer: beer)
     end
+
+      
   end
 
   # GET /questionnaires/1/edit

@@ -18,6 +18,7 @@ education = Education.create([
 ])
 
 brands = Brand.create([
+  { name: '' },
   { name: 'Lech Browary Wielkopolski' },
   { name: 'Kompania Piwowarska' },
   { name: 'Tyskie Browary Książęce' },
@@ -39,12 +40,14 @@ brands = Brand.create([
   { name: 'Cornelius' }
 ])
 kind = Kind.create([
+  { name: '' },
   { name: 'Jasne' },
   { name: 'Ciemne' },
   { name: 'Pszeniczne' },
   { name: 'Smakowe' },
   ])
 sort = Sort.create([
+  { name: '' },
   { name: 'lager' },
   { name: 'miodowe' },
   { name: 'owocowe' },
@@ -57,16 +60,19 @@ sort = Sort.create([
   { name: 'tequilla' }
   ])
 region = Region.create([
+  { name: '' },
   { name: 'krajowe' },
   { name: 'regionalne' },
   { name: 'zagraniczne' }
   ])
 processing = Processing.create([
+  { name: '' },
   { name: 'pasteryzowane' },
   { name: 'niepasteryzowane' },
   { name: 'nieflitrowane' }
   ])
 cost = Cost.create([
+  { name: '' },
   { name: 'tanie' },
   { name: 'przeciętne' },
   { name: 'drogie' }
